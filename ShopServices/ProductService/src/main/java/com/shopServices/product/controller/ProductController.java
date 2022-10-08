@@ -19,7 +19,7 @@ public class ProductController {
         return productService.createProduct(productRequest);
     }
 
-    @GetMapping(path = "/getProducts")
+    @GetMapping()
     public ResponseEntity<?> getAllProducts(){
         return new ResponseEntity<>(productService.getAllProducts(), HttpStatus.FOUND);
     }

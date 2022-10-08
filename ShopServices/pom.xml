@@ -10,6 +10,7 @@
       <module>OrderService</module>
       <module>InventoryService</module>
       <module>DiscoveryServer</module>
+    <module>ApiGateway</module>
   </modules>
   <name>ShopServices Maven Webapp</name>
   <url>http://maven.apache.org</url>

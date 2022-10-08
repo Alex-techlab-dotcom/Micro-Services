@@ -9,6 +9,7 @@
         <module name="DiscoveryServer" />
         <module name="OrderService" />
         <module name="ProductService" />
+        <module name="ApiGateway" />
         <module name="InventoryService" />
       </profile>
     </annotationProcessing>
