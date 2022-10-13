@@ -5,12 +5,17 @@
   <artifactId>ShopServices</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+
+
+
+
   <modules>
     <module>ProductService</module>
       <module>OrderService</module>
       <module>InventoryService</module>
       <module>DiscoveryServer</module>
     <module>ApiGateway</module>
+      <module>NotificationService</module>
   </modules>
   <name>ShopServices Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -103,7 +108,7 @@
         <plugin>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-maven-plugin</artifactId>
-          <version>2.6.9</version>
+          <version>2.7.4</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
